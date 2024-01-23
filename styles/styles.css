@@ -25,6 +25,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -57,8 +58,8 @@ footer {
 
 aside h2 {
     position: absolute;
-    top: 7px;
-    left: 2px;
+    top: 30px;
+    left: 130px;
 }
 
 /*Class Selectors*/
