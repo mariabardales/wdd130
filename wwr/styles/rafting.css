@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root {
+    --primary-color:#2E1760;
+    --secundary-color:#3423A6;
+    --accent1-color:#7180B9;
+    --accent2-color:#DFF3E4;
+    
+    --heading-font: 'Josefin Sans', sans-serif;
+    --paragraph-font: 'Rubik', sans-serif;
+
+    --nav-background-color:#DFF3E4;
+    --nav-link-color:#171738;
+    --nav-hover-link-color:#171738;
+    --nav-hover-background-color:#DFF3E4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent1-color);
+    font-weight: bold;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    background-color: #DFF3E4;
+}
+
+
+
+.des {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    background-color: #DFF3E4;
+}
+
+.des p{
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.des img{
+    width: 150px;
+    height: auto;
+    max-width: 200px;
+    margin-right: 20px;
+}
