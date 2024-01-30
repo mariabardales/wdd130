@@ -92,13 +92,14 @@ h1 {
 .des p{
     margin-left: 20px;
     padding: 20px;
-    
+    float: left;    
 }
 
 .hero article img {
     width: 300px;
     float: right;
     padding: 0 0 0 40 px;
+    max-width: 200px;
 } 
 
 
