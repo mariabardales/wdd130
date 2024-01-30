@@ -21,6 +21,27 @@
     box-sizing: border-box ;
 }
 
+header img {
+    width: 10%;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration:none;
+    color: var(--accent1-color);
+    padding: 1em;
+}
+
+nav a:hover {
+    color: #2E1760;
+    background-color: #7180B9;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -39,6 +60,7 @@ a {
 html, body {
     min-height: 100%;
 }
+
 
 .hero img {
     display: block;
@@ -64,18 +86,20 @@ h1 {
     position: absolute;
     text-align: center;
     top: 200px;
-    background-color: #DFF3E4;
+    background-color: rgba(165, 151, 168, 0.8);
 }
 
 .des p{
-    flex: 1;
-    text-align: left;
     margin-left: 20px;
+    padding: 20px;
+    
 }
 
-.des img{
-    width: 150px;
-    height: auto;
-    max-width: 200px;
-    margin-right: 20px;
-}
+.hero article img {
+    width: 300px;
+    float: right;
+    padding: 0 0 0 40 px;
+} 
+
+
+
