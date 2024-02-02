@@ -22,19 +22,26 @@
 }
 
 header img {
-    width: 10%;
+    width: 100px;
     height: auto;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 header nav {
     display: flex;
     justify-content: space-evenly;
+    max-width: 840px;
+    grid-column: 2/6;
+    margin: 1rem;
 }
 
 nav a {
     text-decoration:none;
     color: var(--accent1-color);
     padding: 1em;
+    display: block;
 }
 
 nav a:hover {
@@ -101,6 +108,12 @@ h1 {
     padding: 0 0 0 40 px;
     max-width: 200px;
 } 
+
+.gridheader {
+    display: grid;
+    align-items: center;
+    
+}
 
 
 
