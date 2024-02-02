@@ -179,6 +179,9 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
-
+.sociallinks a {
+    display: inline-block;
+    margin-right: 10px;
+}
 
 
