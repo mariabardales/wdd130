@@ -273,3 +273,101 @@ footer{
     margin-bottom: 20px;
 }
 
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--accent1-color);
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-image {
+    background-color:var(--accent2-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 4;
+  }
+  .grid-item-title {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 4;
+  }
+  
+  .grid-item-table {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 4;
+  }
+  .grid-item-trips {
+    background-color: var(--accent2-color);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column: span 3;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+  }
+  .trip-information-title {
+    grid-row: 1; 
+    grid-column: span 3; 
+  }
+  .trip-information-content {
+    grid-row: 2; 
+    gap: 20px; 
+    text-align: center;
+    grid-column:span 3;
+    display:grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+  }
+  .trip-info1 {
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .trip-info2 {
+    background-color:white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .trip-info3 {
+    background-color:white;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
